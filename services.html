@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services | SoftDev Solutions</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="topbar py-2">
+      <div class="container d-flex flex-wrap justify-content-between gap-2">
+        <div>✉ info@softdevsolutions.com &nbsp; ☎ +880 1700-123456</div>
+        <div>
+          <a href="#">Facebook</a> &nbsp; <a href="#">𝕏</a> &nbsp;
+          <a href="#">YouTube</a> &nbsp; <a href="#">Login/Register</a>
+        </div>
+      </div>
+    </div>
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm"
+    >
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html"
+          ><span class="brand-mark">SD</span> SoftDev Solutions</a
+        ><button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-primary ms-lg-2" href="#">Login/Register</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header class="page-header">
+      <div class="container">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active">Services</li>
+          </ol>
+        </nav>
+        <h1>Our Services</h1>
+      </div>
+    </header>
+    <section class="section-padding">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-8">
+            <div class="accordion" id="serviceAccordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#web"
+                  >
+                    Web Development
+                  </button>
+                </h2>
+                <div
+                  id="web"
+                  class="accordion-collapse collapse show"
+                  data-bs-parent="#serviceAccordion"
+                >
+                  <div class="accordion-body">
+                    We create responsive business websites and web applications
+                    with structured layouts, clean code and user-friendly
+                    interfaces.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#mobile"
+                  >
+                    Mobile App Development
+                  </button>
+                </h2>
+                <div
+                  id="mobile"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#serviceAccordion"
+                >
+                  <div class="accordion-body">
+                    We design practical mobile application interfaces and
+                    development solutions for business and service needs.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#uiux"
+                  >
+                    UI/UX Design
+                  </button>
+                </h2>
+                <div
+                  id="uiux"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#serviceAccordion"
+                >
+                  <div class="accordion-body">
+                    We create clear layouts, visual systems and user flows
+                    focused on usability and consistent digital experiences.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#software"
+                  >
+                    Custom Software
+                  </button>
+                </h2>
+                <div
+                  id="software"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#serviceAccordion"
+                >
+                  <div class="accordion-body">
+                    We develop customized software concepts according to
+                    specific business requirements and workflows.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="detail-box">
+              <h3>Service Detail</h3>
+              <p>
+                Select a service from the list to expand its full description.
+              </p>
+              <i class="bi bi-layers service-icon"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container py-4 text-center">
+        <p class="mb-0">© 2026 SoftDev Solutions. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <div class="datetime" id="dateTime"></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
